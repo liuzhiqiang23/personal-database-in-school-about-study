@@ -1,0 +1,185 @@
+topic: langchain
+concepts:
+  - slug: agent-tracing-model
+    sources: [experiments/langchain/stage-2-experiment/case-6-observability/handbook.md]
+    source_fingerprint: b23eda11e1b84b47
+    compiled: true
+  - slug: agentic-rag-loop
+    sources: [experiments/langchain/stage-2-experiment/case-7-agentic-rag/handbook.md]
+    source_fingerprint: 5a6eb0224a9e9b97
+    compiled: true
+  - slug: builtin-middleware-catalog
+    sources: [experiments/langchain/stage-2-experiment/case-3-middleware-system/handbook.md, experiments/langchain/stage-2-experiment/case-8-deepagents-harness/handbook.md]
+    source_fingerprint: 642d025dae678a6d
+    compiled: true
+  - slug: business-decoupling-reuse-pattern
+    sources: [experiments/langchain/stage-2-experiment/case-1-create-agent-core/handbook.md, experiments/langchain/stage-2-experiment/case-2-structured-output/handbook.md, experiments/langchain/stage-2-experiment/case-3-middleware-system/handbook.md, experiments/langchain/stage-2-experiment/case-4-persistent-memory/handbook.md, experiments/langchain/stage-2-experiment/case-5-human-in-the-loop/handbook.md, experiments/langchain/stage-2-experiment/case-6-observability/handbook.md, experiments/langchain/stage-2-experiment/case-7-agentic-rag/handbook.md, experiments/langchain/stage-2-experiment/case-8-deepagents-harness/handbook.md]
+    source_fingerprint: 6a63013db2122287
+    compiled: true
+  - slug: checkpointer-backends
+    sources: [experiments/langchain/stage-2-experiment/case-4-persistent-memory/handbook.md]
+    source_fingerprint: 635edf1630a28bea
+    compiled: true
+  - slug: checkpointer-persistence
+    sources: [experiments/langchain/stage-2-experiment/case-4-persistent-memory/handbook.md, experiments/langchain/stage-2-experiment/case-5-human-in-the-loop/handbook.md, experiments/langchain/stage-2-experiment/case-6-observability/handbook.md]
+    source_fingerprint: 74b844f39ad3511b
+    compiled: true
+  - slug: create-agent-entry
+    sources: [experiments/langchain/stage-1-bootstrap/handbook.md, experiments/langchain/stage-2-experiment/case-1-create-agent-core/handbook.md, experiments/langchain/stage-2-experiment/case-2-structured-output/handbook.md, experiments/langchain/stage-2-experiment/case-4-persistent-memory/handbook.md, experiments/langchain/stage-2-experiment/case-8-deepagents-harness/handbook.md]
+    source_fingerprint: cbba0dc4ba072264
+    compiled: true
+  - slug: deepagents-harness
+    sources: [experiments/langchain/stage-2-experiment/case-8-deepagents-harness/handbook.md]
+    source_fingerprint: 0fef16e70d9dc472
+    compiled: true
+  - slug: deepseek-provider-integration
+    sources: [experiments/langchain/stage-1-bootstrap/handbook.md, experiments/langchain/stage-2-experiment/case-1-create-agent-core/handbook.md, experiments/langchain/stage-2-experiment/case-2-structured-output/handbook.md, experiments/langchain/stage-2-experiment/case-8-deepagents-harness/handbook.md]
+    source_fingerprint: 2ac1ce1af1ab9707
+    compiled: true
+  - slug: document-chunking
+    sources: [experiments/langchain/stage-2-experiment/case-7-agentic-rag/handbook.md]
+    source_fingerprint: 5a6eb0224a9e9b97
+    compiled: true
+  - slug: embedding-and-vectorstore
+    sources: [experiments/langchain/stage-2-experiment/case-7-agentic-rag/handbook.md]
+    source_fingerprint: 5a6eb0224a9e9b97
+    compiled: true
+  - slug: hitl-implementation-routes
+    sources: [experiments/langchain/stage-2-experiment/case-5-human-in-the-loop/handbook.md, experiments/langchain/stage-2-experiment/case-3-middleware-system/handbook.md]
+    source_fingerprint: f5778038d8ee1d8a
+    compiled: true
+  - slug: hitl-iron-rules
+    sources: [experiments/langchain/stage-2-experiment/case-5-human-in-the-loop/handbook.md]
+    source_fingerprint: a5140409ab71520f
+    compiled: true
+  - slug: human-in-the-loop-interrupt
+    sources: [experiments/langchain/stage-2-experiment/case-5-human-in-the-loop/handbook.md]
+    source_fingerprint: a5140409ab71520f
+    compiled: true
+  - slug: interrupt-resume-replay
+    sources: [experiments/langchain/stage-2-experiment/case-5-human-in-the-loop/handbook.md]
+    source_fingerprint: a5140409ab71520f
+    compiled: true
+  - slug: invoke-vs-stream
+    sources: [experiments/langchain/stage-2-experiment/case-1-create-agent-core/handbook.md, experiments/langchain/stage-1-bootstrap/handbook.md, experiments/langchain/stage-2-experiment/case-8-deepagents-harness/handbook.md]
+    source_fingerprint: eda8d33aa16ca8e7
+    compiled: true
+  - slug: langchain-package-stack
+    sources: [experiments/langchain/stage-1-bootstrap/handbook.md, experiments/langchain/stage-2-experiment/case-1-create-agent-core/handbook.md, experiments/langchain/stage-2-experiment/case-3-middleware-system/handbook.md, experiments/langchain/stage-2-experiment/case-8-deepagents-harness/handbook.md]
+    source_fingerprint: 5a8bfe75f58b9858
+    compiled: true
+  - slug: langfuse-langchain-integration
+    sources: [experiments/langchain/stage-2-experiment/case-6-observability/handbook.md]
+    source_fingerprint: b23eda11e1b84b47
+    compiled: true
+  - slug: langfuse-selfhost-setup
+    sources: [experiments/langchain/stage-2-experiment/case-6-observability/handbook.md]
+    source_fingerprint: b23eda11e1b84b47
+    compiled: true
+  - slug: local-environment-traps
+    sources: [experiments/langchain/stage-1-bootstrap/handbook.md, experiments/langchain/stage-2-experiment/case-4-persistent-memory/handbook.md, experiments/langchain/stage-2-experiment/case-7-agentic-rag/handbook.md, experiments/langchain/stage-2-experiment/case-6-observability/handbook.md]
+    source_fingerprint: a083f36fa76dcc56
+    compiled: true
+  - slug: message-stream-anatomy
+    sources: [experiments/langchain/stage-1-bootstrap/handbook.md, experiments/langchain/stage-2-experiment/case-1-create-agent-core/handbook.md, experiments/langchain/stage-2-experiment/case-4-persistent-memory/handbook.md]
+    source_fingerprint: 9837d81c6780b73e
+    compiled: true
+  - slug: middleware-execution-order
+    sources: [experiments/langchain/stage-2-experiment/case-3-middleware-system/handbook.md]
+    source_fingerprint: 351906413545d74f
+    compiled: true
+  - slug: middleware-flow-control
+    sources: [experiments/langchain/stage-2-experiment/case-3-middleware-system/handbook.md]
+    source_fingerprint: 351906413545d74f
+    compiled: true
+  - slug: middleware-hooks
+    sources: [experiments/langchain/stage-2-experiment/case-3-middleware-system/handbook.md, experiments/langchain/stage-2-experiment/case-8-deepagents-harness/handbook.md]
+    source_fingerprint: 642d025dae678a6d
+    compiled: true
+  - slug: observability-platform-choice
+    sources: [experiments/langchain/stage-2-experiment/case-6-observability/handbook.md, experiments/langchain/stage-1-bootstrap/handbook.md]
+    source_fingerprint: 314332122e86a330
+    compiled: true
+  - slug: parallel-tool-calls
+    sources: [experiments/langchain/stage-2-experiment/case-1-create-agent-core/handbook.md]
+    source_fingerprint: 493cbe2318e634f5
+    compiled: true
+  - slug: pii-redaction-middleware
+    sources: [experiments/langchain/stage-2-experiment/case-3-middleware-system/handbook.md]
+    source_fingerprint: 351906413545d74f
+    compiled: true
+  - slug: pydantic-schema-design
+    sources: [experiments/langchain/stage-2-experiment/case-2-structured-output/handbook.md, experiments/langchain/stage-2-experiment/case-7-agentic-rag/handbook.md]
+    source_fingerprint: 726c15d39eb6213d
+    compiled: true
+  - slug: python-env-and-venv-setup
+    sources: [experiments/langchain/stage-1-bootstrap/handbook.md, experiments/langchain/stage-2-experiment/case-1-create-agent-core/handbook.md, experiments/langchain/stage-2-experiment/case-4-persistent-memory/handbook.md]
+    source_fingerprint: 9837d81c6780b73e
+    compiled: true
+  - slug: retrieval-grader
+    sources: [experiments/langchain/stage-2-experiment/case-7-agentic-rag/handbook.md]
+    source_fingerprint: 5a6eb0224a9e9b97
+    compiled: true
+  - slug: state-snapshot-inspection
+    sources: [experiments/langchain/stage-2-experiment/case-4-persistent-memory/handbook.md, experiments/langchain/stage-2-experiment/case-5-human-in-the-loop/handbook.md]
+    source_fingerprint: 94fe3499b5d86707
+    compiled: true
+  - slug: structured-output-response-format
+    sources: [experiments/langchain/stage-2-experiment/case-2-structured-output/handbook.md]
+    source_fingerprint: 648b65a142904bfd
+    compiled: true
+  - slug: structured-output-strategy-compat
+    sources: [experiments/langchain/stage-2-experiment/case-2-structured-output/handbook.md, experiments/langchain/stage-2-experiment/case-7-agentic-rag/handbook.md]
+    source_fingerprint: 726c15d39eb6213d
+    compiled: true
+  - slug: subagent-delegation
+    sources: [experiments/langchain/stage-2-experiment/case-8-deepagents-harness/handbook.md]
+    source_fingerprint: 0fef16e70d9dc472
+    compiled: true
+  - slug: system-prompt-boundary
+    sources: [experiments/langchain/stage-2-experiment/case-1-create-agent-core/handbook.md, experiments/langchain/stage-2-experiment/case-5-human-in-the-loop/handbook.md]
+    source_fingerprint: 9a895351ba30db11
+    compiled: true
+  - slug: thread-id-isolation
+    sources: [experiments/langchain/stage-2-experiment/case-4-persistent-memory/handbook.md, experiments/langchain/stage-2-experiment/case-5-human-in-the-loop/handbook.md]
+    source_fingerprint: 94fe3499b5d86707
+    compiled: true
+  - slug: time-travel-replay
+    sources: [experiments/langchain/stage-2-experiment/case-4-persistent-memory/handbook.md]
+    source_fingerprint: 635edf1630a28bea
+    compiled: true
+  - slug: todo-planning-mechanism
+    sources: [experiments/langchain/stage-2-experiment/case-8-deepagents-harness/handbook.md]
+    source_fingerprint: 0fef16e70d9dc472
+    compiled: true
+  - slug: tool-calling-loop
+    sources: [experiments/langchain/stage-1-bootstrap/handbook.md, experiments/langchain/stage-2-experiment/case-1-create-agent-core/handbook.md, experiments/langchain/stage-2-experiment/case-3-middleware-system/handbook.md, experiments/langchain/stage-2-experiment/case-6-observability/handbook.md]
+    source_fingerprint: bece729e41298097
+    compiled: true
+  - slug: tool-function-contract
+    sources: [experiments/langchain/stage-2-experiment/case-1-create-agent-core/handbook.md, experiments/langchain/stage-2-experiment/case-7-agentic-rag/handbook.md, experiments/langchain/stage-2-experiment/case-5-human-in-the-loop/handbook.md]
+    source_fingerprint: 319200647e8e3911
+    compiled: true
+  - slug: virtual-filesystem-context-engineering
+    sources: [experiments/langchain/stage-2-experiment/case-8-deepagents-harness/handbook.md]
+    source_fingerprint: 0fef16e70d9dc472
+    compiled: true
+handbooks:
+  - path: experiments/langchain/stage-1-bootstrap/handbook.md
+    feeds: [create-agent-entry, deepseek-provider-integration, invoke-vs-stream, langchain-package-stack, local-environment-traps, message-stream-anatomy, observability-platform-choice, python-env-and-venv-setup, tool-calling-loop]
+  - path: experiments/langchain/stage-2-experiment/case-1-create-agent-core/handbook.md
+    feeds: [business-decoupling-reuse-pattern, create-agent-entry, deepseek-provider-integration, invoke-vs-stream, langchain-package-stack, message-stream-anatomy, parallel-tool-calls, python-env-and-venv-setup, system-prompt-boundary, tool-calling-loop, tool-function-contract]
+  - path: experiments/langchain/stage-2-experiment/case-2-structured-output/handbook.md
+    feeds: [business-decoupling-reuse-pattern, create-agent-entry, deepseek-provider-integration, pydantic-schema-design, structured-output-response-format, structured-output-strategy-compat]
+  - path: experiments/langchain/stage-2-experiment/case-3-middleware-system/handbook.md
+    feeds: [builtin-middleware-catalog, business-decoupling-reuse-pattern, hitl-implementation-routes, langchain-package-stack, middleware-execution-order, middleware-flow-control, middleware-hooks, pii-redaction-middleware, tool-calling-loop]
+  - path: experiments/langchain/stage-2-experiment/case-4-persistent-memory/handbook.md
+    feeds: [business-decoupling-reuse-pattern, checkpointer-backends, checkpointer-persistence, create-agent-entry, local-environment-traps, message-stream-anatomy, python-env-and-venv-setup, state-snapshot-inspection, thread-id-isolation, time-travel-replay]
+  - path: experiments/langchain/stage-2-experiment/case-5-human-in-the-loop/handbook.md
+    feeds: [business-decoupling-reuse-pattern, checkpointer-persistence, hitl-implementation-routes, hitl-iron-rules, human-in-the-loop-interrupt, interrupt-resume-replay, state-snapshot-inspection, system-prompt-boundary, thread-id-isolation, tool-function-contract]
+  - path: experiments/langchain/stage-2-experiment/case-6-observability/handbook.md
+    feeds: [agent-tracing-model, business-decoupling-reuse-pattern, checkpointer-persistence, langfuse-langchain-integration, langfuse-selfhost-setup, local-environment-traps, observability-platform-choice, tool-calling-loop]
+  - path: experiments/langchain/stage-2-experiment/case-7-agentic-rag/handbook.md
+    feeds: [agentic-rag-loop, business-decoupling-reuse-pattern, document-chunking, embedding-and-vectorstore, local-environment-traps, pydantic-schema-design, retrieval-grader, structured-output-strategy-compat, tool-function-contract]
+  - path: experiments/langchain/stage-2-experiment/case-8-deepagents-harness/handbook.md
+    feeds: [builtin-middleware-catalog, business-decoupling-reuse-pattern, create-agent-entry, deepagents-harness, deepseek-provider-integration, invoke-vs-stream, langchain-package-stack, middleware-hooks, subagent-delegation, todo-planning-mechanism, virtual-filesystem-context-engineering]

@@ -1,0 +1,161 @@
+topic: langchain
+domains:
+  setup: 环境与安装
+  agent-core: 智能体核心
+  middleware: 中间件与横切能力
+  memory: 记忆与状态
+  human-oversight: 人工审批
+  observability: 可观测
+  retrieval: 检索增强
+  long-horizon: 长程任务
+skills:
+  - name: bootstrapping-langchain-env
+    domain: setup
+    sources:
+      - experiments/langchain/stage-1-bootstrap/handbook.md
+    source_fingerprint: 028d100e69210d44
+    compiled: true
+    showcase:
+      type: screenshot
+      path: experiments/langchain/stage-1-bootstrap/screenshots/step4-demo-run.png
+      caption: 环境装好后首个示例跑出的四条消息工具调用循环
+  - name: building-tool-calling-agent
+    domain: agent-core
+    sources:
+      - experiments/langchain/stage-2-experiment/case-1-create-agent-core/handbook.md
+    source_fingerprint: 493cbe2318e634f5
+    compiled: true
+    showcase:
+      type: screenshot
+      path: experiments/langchain/stage-2-experiment/case-1-create-agent-core/screenshots/step5-multi-tool.png
+      caption: 一个复合问题触发两个工具并行调用的消息流
+  - name: extracting-structured-output
+    domain: agent-core
+    sources:
+      - experiments/langchain/stage-2-experiment/case-2-structured-output/handbook.md
+    source_fingerprint: 648b65a142904bfd
+    compiled: true
+    showcase:
+      type: screenshot
+      path: experiments/langchain/stage-2-experiment/case-2-structured-output/screenshots/step4-structured-instance.png
+      caption: 调用结果里的结构化对象可直接按字段取值
+  - name: writing-agent-middleware
+    domain: middleware
+    sources:
+      - experiments/langchain/stage-2-experiment/case-3-middleware-system/handbook.md
+    source_fingerprint: 351906413545d74f
+    compiled: true
+    showcase:
+      type: screenshot
+      path: experiments/langchain/stage-2-experiment/case-3-middleware-system/screenshots/step5-hook-order.png
+      caption: 三个中间件同挂时前置正序、后置逆序的触发序列
+  - name: applying-builtin-middleware
+    domain: middleware
+    sources:
+      - experiments/langchain/stage-2-experiment/case-3-middleware-system/handbook.md
+    source_fingerprint: 351906413545d74f
+    compiled: true
+    showcase:
+      type: screenshot
+      path: experiments/langchain/stage-2-experiment/case-3-middleware-system/screenshots/step4-pii-masked.png
+      caption: 邮箱被整段替换、手机号被遮罩后才送进模型
+  - name: persisting-agent-memory
+    domain: memory
+    sources:
+      - experiments/langchain/stage-2-experiment/case-4-persistent-memory/handbook.md
+    source_fingerprint: 635edf1630a28bea
+    compiled: true
+    showcase:
+      type: screenshot
+      path: experiments/langchain/stage-2-experiment/case-4-persistent-memory/screenshots/step6-sqlite-restart.png
+      caption: 换新进程重新打开存档后仍答得出上一轮说过的订单号
+  - name: inspecting-checkpoint-state
+    domain: memory
+    sources:
+      - experiments/langchain/stage-2-experiment/case-4-persistent-memory/handbook.md
+    source_fingerprint: 635edf1630a28bea
+    compiled: true
+    showcase:
+      type: screenshot
+      path: experiments/langchain/stage-2-experiment/case-4-persistent-memory/screenshots/step4-checkpoint-snapshot.png
+      caption: 状态快照的八个字段与八条消息历史全貌
+  - name: gating-agent-actions-with-approval
+    domain: human-oversight
+    sources:
+      - experiments/langchain/stage-2-experiment/case-5-human-in-the-loop/handbook.md
+    source_fingerprint: a5140409ab71520f
+    compiled: true
+    showcase:
+      type: screenshot
+      path: experiments/langchain/stage-2-experiment/case-5-human-in-the-loop/screenshots/step5-resume-approve.png
+      caption: 人工批准后续跑、危险动作才真正执行
+  - name: deploying-langfuse-selfhost
+    domain: observability
+    sources:
+      - experiments/langchain/stage-2-experiment/case-6-observability/handbook.md
+    source_fingerprint: b23eda11e1b84b47
+    compiled: true
+    showcase:
+      type: screenshot
+      path: experiments/langchain/stage-2-experiment/case-6-observability/screenshots/step2-langfuse-apikeys.png
+      caption: 首次启动即预置好项目与可直接使用的公私钥
+  - name: tracing-langchain-agent
+    domain: observability
+    sources:
+      - experiments/langchain/stage-2-experiment/case-6-observability/handbook.md
+    source_fingerprint: b23eda11e1b84b47
+    compiled: true
+    showcase:
+      type: screenshot
+      path: experiments/langchain/stage-2-experiment/case-6-observability/screenshots/step5-trace-tree.png
+      caption: 一次请求展开成可逐节点查看输入输出的调用树
+  - name: building-agentic-rag
+    domain: retrieval
+    sources:
+      - experiments/langchain/stage-2-experiment/case-7-agentic-rag/handbook.md
+    source_fingerprint: 5a6eb0224a9e9b97
+    compiled: true
+    showcase:
+      type: screenshot
+      path: experiments/langchain/stage-2-experiment/case-7-agentic-rag/screenshots/step5-agent-retrieves.png
+      caption: Agent 自主换关键词连查三次直到拿到够用的内容
+  - name: grading-retrieved-documents
+    domain: retrieval
+    sources:
+      - experiments/langchain/stage-2-experiment/case-7-agentic-rag/handbook.md
+      - experiments/langchain/stage-2-experiment/case-8-deepagents-harness/handbook.md
+    source_fingerprint: a6088d593679dcca
+    compiled: true
+    showcase:
+      type: screenshot
+      path: experiments/langchain/stage-2-experiment/case-7-agentic-rag/screenshots/extension-1-grader-decision-trace.png
+      caption: 命中即停止、全不命中则改写重试到上限的完整决策过程
+  - name: building-long-horizon-agent
+    domain: long-horizon
+    sources:
+      - experiments/langchain/stage-2-experiment/case-8-deepagents-harness/handbook.md
+    source_fingerprint: 0fef16e70d9dc472
+    compiled: true
+    showcase:
+      type: screenshot
+      path: experiments/langchain/stage-2-experiment/case-8-deepagents-harness/screenshots/step3-write-todos.png
+      caption: 长任务被自动拆成待办清单并逐条推进到全部完成
+handbooks:
+  - path: experiments/langchain/stage-1-bootstrap/handbook.md
+    feeds: [bootstrapping-langchain-env]
+  - path: experiments/langchain/stage-2-experiment/case-1-create-agent-core/handbook.md
+    feeds: [building-tool-calling-agent]
+  - path: experiments/langchain/stage-2-experiment/case-2-structured-output/handbook.md
+    feeds: [extracting-structured-output]
+  - path: experiments/langchain/stage-2-experiment/case-3-middleware-system/handbook.md
+    feeds: [writing-agent-middleware, applying-builtin-middleware]
+  - path: experiments/langchain/stage-2-experiment/case-4-persistent-memory/handbook.md
+    feeds: [persisting-agent-memory, inspecting-checkpoint-state]
+  - path: experiments/langchain/stage-2-experiment/case-5-human-in-the-loop/handbook.md
+    feeds: [gating-agent-actions-with-approval]
+  - path: experiments/langchain/stage-2-experiment/case-6-observability/handbook.md
+    feeds: [deploying-langfuse-selfhost, tracing-langchain-agent]
+  - path: experiments/langchain/stage-2-experiment/case-7-agentic-rag/handbook.md
+    feeds: [building-agentic-rag, grading-retrieved-documents]
+  - path: experiments/langchain/stage-2-experiment/case-8-deepagents-harness/handbook.md
+    feeds: [building-long-horizon-agent, grading-retrieved-documents]
